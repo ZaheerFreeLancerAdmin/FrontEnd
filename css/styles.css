@@ -10,7 +10,12 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
+legend{
+  font-family: "Times New Roman", Times, serif;
+   font-style: italic;
+   font-size: 40px;
+    
+}
 button {
     background-color: #4CAF50;
     color: white;
