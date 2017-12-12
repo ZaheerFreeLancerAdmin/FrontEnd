@@ -14,15 +14,16 @@
 </head>
 <body>
 <fieldset>
-    <legend>Provide information:</legend>
+    <legend><h2><b>Provide information:</b></h2></legend>
 	<div class="AddressBar">
-    Address:<br>
-    <input type="text" name="address" value="House No. 1, Street 1, malegaaon - 520012">
+    <label for="address">Address:	</label><textarea rows = "5" cols = "50" name = "description">House No. 1, Street 1, malegaaon - 520012
+         </textarea>
+    <!--<input type="text" name="address" value="House No. 1, Street 1, malegaaon - 520012"> -->
 	</div>
-	<br>Mobile:<br>
-    <input type="text" name="mobile" value="Mouse">
-	<br>NoOf Cans:<br>
-    <input type="text" name="NoOfcans" value="Mouse"><br><br>
+	<br><label for="mobile">Mobile:  </label><br>
+    <input type="tel" name="mobile" value="9886754567">
+	<br><label for="cans">NoOf Cans:    </label><br>
+    <input type="number" maxlength = "13" min = "1" max = "5"name="NoOfcans" value="1"><br><br>
     <button type="submit">Submit</button>
   </fieldset>
 </body>

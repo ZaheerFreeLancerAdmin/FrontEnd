@@ -14,16 +14,35 @@ head {
 body {
     border: 3px solid #f1f1f1;
 }
-
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+input[type=tel],input[type=number] {
+width: 170px;
+	transform: translate(100px,-22px);
+  /*  width: 200px;
+    float: right;
+    padding: 1px 1px;
+    margin: -25px 1px;
     display: inline-block;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
 }
 
+label {
+    /* Other styling.. */
+	font-weight: bold;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+label>input {
+   float: right;
+}
+textarea {
+    height: 100px;
+    width: 170px;
+    display: inline-block;
+    transform: translate(23px,1px);
+}
 button {
 font-size: 25px;
     background-color: #4CAF50;
@@ -66,6 +85,7 @@ width: unset;
      
 }
 .imgcontainer {
+    height: 140px;
 	 background-color: #eff1e6 ;
 	border: 3px solid #271a98;
     text-align: right;
